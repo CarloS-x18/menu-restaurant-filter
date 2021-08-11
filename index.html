@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main class="main">
+        <section class="section">
+            <!-- title -->
+            <div class="section__title">
+                <h1>Menú Restaurant</h1>
+                <div class="title__line"></div>
+            </div>
+
+            <!-- navegation buttons -->
+            <nav class="section__nav">
+                <button id="all" class="nav__button nav__button--select">All</button>
+                <button id="bebidas" class="nav__button">Bebidas</button>
+                <button id="postres" class="nav__button">Postres</button>
+                <button id="pltsFuertes" class="nav__button">Platos Fuertes</button>
+            </nav>
+
+            <!-- foods list -->
+            <div class="section__foods" id="menu"></div>
+        </section>
+    </main>
+
+    <script src="src/js/app.js" type="module"></script>
+</body>
+</html>
